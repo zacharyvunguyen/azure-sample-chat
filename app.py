@@ -52,20 +52,3 @@ while True:
     completion = ai_chat(user_message)  # Call the ai_chat function with the user's message
     # Extract and print the assistant's response from the completion object
     print(completion)
-
-#completion = client.chat.completions.create(
-#    model=deployment,
-#    messages=[
-#        {
-#            "role": "user",
-#            "content": "What are the differences between Azure Machine Learning and Azure AI services?"
-#        }],
-#    max_tokens=800,
-#    temperature=0.7,
-#    top_p=0.95,
-#    frequency_penalty=0,
-#    presence_penalty=0,
-#    stop=None,
-#    stream=False
-#)
-#print(completion.to_json())
