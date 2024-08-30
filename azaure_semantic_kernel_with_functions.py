@@ -22,8 +22,8 @@ async def main():
     script_directory = os.path.dirname(__file__)
     plugins_directory = os.path.join(script_directory, "plugins")
     writer_plugin = kernel.add_plugin(parent_directory=plugins_directory, plugin_name="WinePlugin")
-
-    result = await kernel.invoke(writer_plugin["Somellier"], input="Merlot")
+    wine_name=input("Please enter the name of the wine: ")
+    result = await kernel.invoke(writer_plugin["Somellier"], input=wine_name)
 
     print(result)
 

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "type": "completion",
-  "description": "Pair a type of wine with possible dishes.",
+  "description": "Pair a type of wine with possible dishes",
   "completion": {
     "max_tokens": 200,
     "temperature": 0.5,

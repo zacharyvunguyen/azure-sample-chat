@@ -1,2 +1,3 @@
-Generate 3 potential dishes for pairing the given wine. The wine can be a distinct grape, a type of wine like red, white, or bubbly. Sometimes the given wine description might not be super accurate, so make sure you always suggest dishes regardless.
-Wine:{{$input}}
+Wine: {{$input}}
+Generate 3 potential dishes that pair well with the given wine. The wine can be a specific grape variety or a general type such as red, white, or sparkling. Even if the wine description isn't precise, always provide suitable dish pairings.
+Additionally, recommend the best bottle of this wine available for under $100.
